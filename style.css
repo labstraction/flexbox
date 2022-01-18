@@ -1,0 +1,43 @@
+.green-box{
+    background-color: green;
+    flex-grow: 2;
+    min-width: 100px;
+}
+
+.red-box{
+    background-color: red;
+    order: 2;
+    flex-grow: 1;
+    min-width: 50px;
+}
+
+.blue-box{
+    background-color: blue;
+    flex-grow: 6;
+    min-width: 300px;
+}
+
+.box-height{
+    height: 100px;
+}
+
+/* .big-box-height{
+    height: 200px;
+} */
+
+/* .box-width{
+    width: 300px;
+    
+} */
+
+
+
+.box-container{
+    height: 600px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
